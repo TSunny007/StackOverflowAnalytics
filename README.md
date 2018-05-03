@@ -3,4 +3,9 @@ Using stack overflow Q/A data to perform feature analysis in the field of Comput
 
 [Dataset Used](https://www.kaggle.com/stackoverflow/stacksample)
 
-[Reduction & Cleaning](https://nbviewer.jupyter.org/github/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/reduction_and_cleaning.ipynb): In this notebook I had to pre-process all questions and answers asked by people, and determine which questions can be deemed relevant. Finally, a cleaned, new dataset which only contains relevant questions is used.
+[Reduction & Cleaning](https://nbviewer.jupyter.org/github/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/reduction_and_cleaning.ipynb): In this notebook I had to pre-process all questions and answers asked by people, and determine which questions can be deemed relevant. Finally, a cleaned, new dataset which only contains relevant questions is generated.
+
+
+[Tag Network](https://nbviewer.jupyter.org/github/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/tag_network.ipynb): In this notebook I used links beteen all tags (ex. prevalance of AngularJS questions being also Javasctipt questions) to make a we depicting [topic relationships](https://github.com/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/tag_links.png)
+
+[Score-Question Relation](https://nbviewer.jupyter.org/github/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/score_tag_relation.ipynb): In this notebook I examined a relation between the number of questions a user asked, and the overall scores they got from the questions. It turned out that a `score` is a very turbulent factor, and that it doesn't speak a person's expertise very well i.e. a high score in a question doesn't necessarily mean that score reflects on their knowledge of topics. Perhaps it would make more sense with answers instead of questions. 
