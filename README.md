@@ -8,4 +8,8 @@ Using stack overflow Q/A data to perform feature analysis in the field of Comput
 
 [Tag Network](https://nbviewer.jupyter.org/github/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/tag_network.ipynb): In this notebook I used links beteen all tags (ex. prevalance of AngularJS questions being also Javasctipt questions) to make a we depicting [topic relationships](https://github.com/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/tag_links.png)
 
+[User Question Mapping]
+[https://nbviewer.jupyter.org/github/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/user_question_mapping.ipynb]: In this notebook I mapped all users who asked questions into a high-dimensional point. The metrics considered were (1) A weighted score average per question (2) a simple counter of questions asked per category. It should be obvious that the resulting Matrix will be VERY sparse. In the end, the count metric ended up winning, but in the future, score should definitely a factor.
+
 [Score-Question Relation](https://nbviewer.jupyter.org/github/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/score_tag_relation.ipynb): In this notebook I examined a relation between the number of questions a user asked, and the overall scores they got from the questions. It turned out that a `score` is a very turbulent factor, and that it doesn't speak a person's expertise very well i.e. a high score in a question doesn't necessarily mean that score reflects on their knowledge of topics. Perhaps it would make more sense with answers instead of questions. 
+
