@@ -6,7 +6,7 @@ Using stack overflow Q/A data to perform feature analysis in the field of Comput
 [Reduction & Cleaning](https://nbviewer.jupyter.org/github/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/reduction_and_cleaning.ipynb): In this notebook I had to pre-process all questions and answers asked by people, and determine which questions can be deemed relevant. Finally, a cleaned, new dataset which only contains relevant questions is generated.
 
 
-[Tag Network](https://nbviewer.jupyter.org/github/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/tag_network.ipynb): In this notebook I used links beteen all tags (ex. prevalance of AngularJS questions being also Javasctipt questions) to make a we depicting [topic relationships](https://github.com/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/tag_links.png)
+[Tag Network](https://nbviewer.jupyter.org/github/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/tag_network.ipynb): In this notebook I used links beteen all tags (ex. prevalance of AngularJS questions being also Javasctipt questions) to make a web depicting [topic relationships](https://github.com/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/tag_links.png)
 
 [User Question Mapping](https://nbviewer.jupyter.org/github/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/user_question_mapping.ipynb): In this notebook I mapped all users who asked questions into a high-dimensional point. The metrics considered were (1) A weighted score average per question (2) a simple counter of questions asked per category. It should be obvious that the resulting Matrix will be VERY sparse. In the end, the count metric ended up winning, but in the future, score should definitely a factor.
 
