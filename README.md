@@ -4,7 +4,7 @@
 Using stack overflow Q/A data to perform feature analysis in the field of Computer Science
 
 Poster:
-![Poster](https://tarunsunkaraneni.github.io/files/DM-poster.pdf)
+![Poster](https://github.com/TarunSunkaraneni/StackOverflowAnalytics/blob/master/outputs/DM-poster.pdf)
 
 [Dataset Used](https://www.kaggle.com/stackoverflow/stacksample)
 
