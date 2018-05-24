@@ -1,10 +1,13 @@
 # StackOverflowAnalytics
+
+# Wikipedia Structure Analysis
+<iframe src="https://onedrive.live.com/embed?cid=B5A61FFD34B4754B&resid=B5A61FFD34B4754B%21102640&authkey=ACHQ5lhnsNkcogA&em=2" width="476" height="288" frameborder="0" scrolling="no"></iframe>
+
 Using stack overflow Q/A data to perform feature analysis in the field of Computer Science
 
 [Dataset Used](https://www.kaggle.com/stackoverflow/stacksample)
 
 [Reduction & Cleaning](https://nbviewer.jupyter.org/github/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/reduction_and_cleaning.ipynb): In this notebook I had to pre-process all questions and answers asked by people, and determine which questions can be deemed relevant. Finally, a cleaned, new dataset which only contains relevant questions is generated.
-
 
 [Tag Network](https://nbviewer.jupyter.org/github/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/tag_network.ipynb): In this notebook I used links beteen all tags (ex. prevalance of AngularJS questions being also Javasctipt questions) to make a web depicting [topic relationships](https://github.com/TarunSunkaraneni/StackOverflowAnalytics/blob/master/Notebook/tag_links.png)
 
