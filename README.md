@@ -4,7 +4,8 @@
 Using stack overflow Q/A data to perform feature analysis in the field of Computer Science
 
 Report:
-<img src="/output/DM-poster.pdf?raw=true" width="200px">
+
+<img src="/output/DM-poster.pdf" width="800px">
 
 [Dataset Used](https://www.kaggle.com/stackoverflow/stacksample)
 
