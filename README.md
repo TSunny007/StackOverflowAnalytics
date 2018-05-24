@@ -3,8 +3,8 @@
 # Wikipedia Structure Analysis
 Using stack overflow Q/A data to perform feature analysis in the field of Computer Science
 
-Poster:
-![Poster](https://github.com/TarunSunkaraneni/StackOverflowAnalytics/blob/master/outputs/DM-poster.pdf)
+Report:
+<img src="/output/DM-poster.pdf?raw=true" width="200px">
 
 [Dataset Used](https://www.kaggle.com/stackoverflow/stacksample)
 
