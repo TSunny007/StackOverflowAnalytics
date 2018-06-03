@@ -5,7 +5,7 @@ Using stack overflow Q/A data to perform feature analysis in the field of Comput
 
 Report:
 
-<img src="/outputs/DM-poster.pdf" width="200px">
+<img src="/outputs/DM-poster.png" width="500px">
 
 [Dataset Used](https://www.kaggle.com/stackoverflow/stacksample)
 
