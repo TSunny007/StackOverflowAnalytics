@@ -1,6 +1,5 @@
 # StackOverflowAnalytics
 
-# Wikipedia Structure Analysis
 Using stack overflow Q/A data to perform feature analysis in the field of Computer Science
 
 Report:
